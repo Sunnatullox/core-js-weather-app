@@ -34,6 +34,7 @@ const searchResult = document.querySelector("[data-search-result]");
 let searchTimeout = null;
 const searchTimeoutDuration = 500;
 
+
 searchField.addEventListener("input", function () {
   searchTimeout ?? clearTimeout(searchTimeout);
 
